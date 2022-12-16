@@ -8,12 +8,12 @@ import java.util.Scanner;
 
 public class Marks {
 
-    static double getMean(int a, int b, int c, int d) {
+    public static double getMean(int a, int b, int c, int d) {
         double mean = (a + b + c + d) / 4;
         return mean;
     }
 
-    static String findGrade(double score) {
+    public static String findGrade(double score) {
         if (score > 100 || score < 0) {
             return "Invalid Score";
         } else if (score >= 70) {
