@@ -1,7 +1,9 @@
 package Basics;
-// Practicing datatypes, variables, conditions and functions in java
+
+// Practising datatypes, variables, conditions and functions in java
 
 // A program to get students marks for 4 units and return the mean Grade
+
 import java.util.Scanner;
 
 public class Marks {
