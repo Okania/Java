@@ -1,2 +1,3 @@
 # Java
-Revsiting and practising basic java syntax and concepts
+
+Revisiting and practising basic java syntax and concepts
