@@ -2,6 +2,9 @@ package DSA.Searching_algos;
 
 import java.util.Arrays;
 
+//Divide and conquer method of searching -> we divide the list/array into 2 continously until we get the target value if it exists.
+// NOTE: For this method to work, the list/array must be sorted in ascending order.
+
 public class binary_search {
     public static int bin_search(int[] arr, int target) {
         int start = 0;

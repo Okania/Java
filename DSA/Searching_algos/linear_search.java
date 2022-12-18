@@ -1,5 +1,7 @@
 package DSA.Searching_algos;
 
+// A linear mode of searching wherby we compare the target element against all the elements until we find, that is fi it exists.
+
 public class linear_search {
     public static int lin_search(int[] arr, int target) {
 
