@@ -3,13 +3,12 @@ package DSA.Searching_algos;
 import java.util.Arrays;
 
 public class binary_search {
-
     public static int bin_search(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
-        int mid = (start + end) / 2;
 
         while (start <= end) {
+            int mid = (start + end) / 2;
             if (arr[mid] < target) {
                 start = mid + 1;
             }
@@ -32,8 +31,7 @@ public class binary_search {
         if (x == -1) {
             System.out.println("The element is not found");
         } else {
-            System.out.println("The element is found at position " + x + " in the list");
+            System.out.println("The element is found at position " + (x + 1) + " in the list");
         }
-
     }
 }
